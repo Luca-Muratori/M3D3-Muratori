@@ -85,7 +85,7 @@ function hideCard() {
 function searchInput(event) {
   fetch(`https://api.pexels.com/v1/search?query=${event.target.value}`, {
     headers: {
-      Authorization: "563492ad6f917000010000015af99495349042c9b0c053689fae61fc",
+      Authorization: "563492ad6f91700001000001e2948236206a4d278ffe5c700fc3bb68",
     },
   })
     .then((response) => response.json())
